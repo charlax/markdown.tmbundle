@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>InsertFormatHeader.rb|/usr/local/bin/pandoc -f markdown -t textile|"${TM_SMARTYPANTS:-SmartyPants.pl}"</string>
+	<key>fallbackInput</key>
+	<string>document</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>Convert Document / Selection to Textile</string>
+	<key>output</key>
+	<string>openAsNewDocument</string>
+	<key>scope</key>
+	<string>text.html.markdown.multimarkdown</string>
+	<key>uuid</key>
+	<string>F3C7E762-80BC-4CE6-9719-65AF18EA1B11</string>
+</dict>
+</plist>
